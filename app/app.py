@@ -7,7 +7,7 @@ def index():
     """
     Main endpoint for the application, returns a greeting.
     """
-    return "Hello Testing CICD using VM"
+    return "Hello Testing CICD using VM !!!"
 
 @app.route("/healthz")
 def healthz():
